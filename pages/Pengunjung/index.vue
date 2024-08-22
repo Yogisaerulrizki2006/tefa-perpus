@@ -39,7 +39,7 @@
           <td>{{ i + 1 }}</td>
           <td>{{ visitor.nama }}</td>
           <td>{{ visitor.keanggotaan.nama }}</td>
-          <td>{{ visitor.tanggal }}/{{ visitor.waktu }}</td>
+          <td>{{ visitor.tanggal }}, {{ visitor.waktu }}</td>
           <td>{{ visitor.keperluan.nama }}</td>
         </tr>
       </tbody>
